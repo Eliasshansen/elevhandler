@@ -21,3 +21,15 @@ class ElevHandler:
     def add_elev(self, elevnamn, utbildning, tel):
         t_elev = elev.Elev(elevnamn, utbildning, tel)
         self.elevlista.append(t_elev)
+
+        def print_elevlist(self):
+            self.elevlist = sorted (  self.elevlist, keys=lambda p: p.namn)
+
+            print("\n")
+            print("-Listarelever-")
+
+            for elev  in self.elevlist:
+
+            print(elev.get_elev())
+
+

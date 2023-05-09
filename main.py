@@ -19,7 +19,10 @@ while looping:
         namn=input("mata in namnet:   ")
         utb = input("mata in utbildning")
         tel = input("mata in telefonnummer")
-        print ("add elev")
+
+
+        skola.add_elev(namn, utb, tel)
+        
 
     elif (val == "3"):
         print ("ta bort elev")
